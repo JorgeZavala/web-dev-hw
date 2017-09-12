@@ -22,4 +22,6 @@ code block
 ```
 [Here is a link to GitHub](https://github.com/)
 
+New line
+
 ![screenshotOfMyDirectory](./images/screenshot-1.png)
