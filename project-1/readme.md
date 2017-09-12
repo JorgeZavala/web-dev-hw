@@ -22,6 +22,6 @@ code block
 ```
 [Here is a link to GitHub](https://github.com/)
 
-New line
+**Update:** I have downloaded the GitHub desktop app and learned how to use VCS so I can make changes and keep track of them!
 
 ![screenshotOfMyDirectory](./images/screenshot-1.png)
