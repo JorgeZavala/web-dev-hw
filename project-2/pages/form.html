@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <style>
+      body {background-color: wheat;}
+    </style>
+  </head>
+  <body>
+  <h2>Please Review These Brownies!</h2>
+  <form action="#" method="post" id="review-form" class="form-class">
+    <fieldset>
+      <legend>Contact Info</legend>
+      <label>
+        Name:
+        <input type:"text" name="name" placeholder="John Doe" autofocus />
+      </label>
+      <br/>
+      <label>
+        Email:
+        <input type:"email" name="email" placeholder="johndoe@example.com" required />
+      </label>
+    </fieldset>
+    <p>
+      How did you like this recipe?
+      <br/>
+      <input type="radio" name="rating" value="poor"> Poor
+      <br/>
+      <input type="radio" name="rating" value="average"> Average
+      <br/>
+      <input type="radio" name="rating" value="great"> Great
+    </p>
+    <p>Upload a photo of your brownies!</p>
+    <input type="file" name:"user-photo" />
+    <br/>
+    <label>
+      Comments:
+        <textarea name="comments"  style="min-width:100%">
+        </textarea>
+      </label>
+      <br/>
+    <input type="submit" value="Submit" />
+  </form>
+  <ul>
+      <li><a href="./index.html">Back Home</a></li>
+      <li><a href="./instructions.html">To Instructions Page</a></li>
+    </ul>
+</body>
+</html>
