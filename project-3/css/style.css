@@ -1,0 +1,85 @@
+.title{
+  font-size: 250%
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #e3e3e3;
+}
+ul {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+}
+li {
+  display: inline;
+}
+li a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+.title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+.sub-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 2.0em;
+}
+.active {
+    background-color: #03407f;
+  }
+.description{
+  font-family: 'Lato', sans-serif;
+  width: 50%;
+  padding-left: 25%;
+}
+
+.buy-now-button {
+    min-height: 7em;
+}
+
+.button-1 {
+    font-family: 'Roboto Slab', serrif;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+    background-color: #0665c7;
+    border-color: #8f8b8b #383636 #383636 #8f8b8b;
+    border-width: 9px 15px 15px 9px;
+    border-style: solid;
+    margin-right: 20%;
+    top: 1em;
+    padding: 1em;
+    width: 9em;
+    text-align: center;
+}
+
+.button-1:hover {
+    color: #383636;
+    font-style: italic;
+}
+
+.button-1:active {
+    color: #fff;
+    background-color: #03407f;
+    border-color: #383636 #8f8b8b #8f8b8b #383636;
+    border-width: 15px 9px 9px 15px;
+}
+.sample {
+  font-family: 'Lato', sans-serif;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-style: solid;
+  border-color: #03407f;
+  border-width: 3px;
+}
+.bio {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Lato', sans-serif;
+  text-indent: 1.5em;
+}
