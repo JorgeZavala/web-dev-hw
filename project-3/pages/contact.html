@@ -13,21 +13,21 @@
   <body>
     <header>
     <h1 align="center" class="title">Jorge's Library</h1>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="./sample.html">Sample</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a class="active" href="./contact.html">Contact</a></li>
-    </ul>
+    <menu class="menu-container">
+      <a class="menu-item" href="../index.html">Home</a>
+      <a class="menu-item" href="./sample.html">Sample</a>
+      <a class="menu-item" href="./about.html">About</a>
+      <a class="menu-item active" href="./contact.html">Contact</a>
+    </menu>
   </header>
   <main>
     <br>
     <div class="sub-title" align="center">Contact Us</div>
     <br>
     <form action="#" method="post" id="review-form" class="form-class">
-      <fieldset>
+      <fieldset class="contact-info">
         <legend>Contact Info</legend>
-        <label>
+        <label class="contact-info">
           Name:
           <input type:"text" name="name" placeholder="John Doe" autofocus required />
         </label>
@@ -36,14 +36,14 @@
           Email:
           <input type:"email" name="email" placeholder="johndoe@example.com" required />
         </label>
-      </fieldset>
-      <br>
-      <br>
+      <br><br>
+      <label>
       Comments:
-        <textarea name="comments"  style="min-width:50%">
+        <textarea class="comment-box" name="comments">
         </textarea>
       </label>
-      <br/>
+      </fieldset
+      <br><br>
       <input type="submit" value="Submit" />
     </form>
   </main>

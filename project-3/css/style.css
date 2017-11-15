@@ -1,24 +1,36 @@
 .title{
   font-size: 250%;
   color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
 }
 a {
   text-decoration: none;
+  color: white;
 }
 body {
-  background-color: #0665c7
+  background-color: #0665c7;
+  min-width: 700px;
 }
-ul {
+.contact-info {
+  width: 30%;
+}
+.comment-box {
+  width: 400px;
+  height: 100px;
+}
+.menu-container {
   background-color: #333;
-  padding: 15px;
+  padding: 0px;
+  margin: 0;
   text-align: center;
 }
-li {
-  display: inline;
-}
-li a {
-  color: white;
-  padding: 15px;
+.menu-item {
+  display: inline-block;
+  text-align: center;
+  height: 25px;
+  padding: 0.5em 1em;
+  text-align: center;
   text-decoration: none;
 }
 header {
@@ -27,10 +39,7 @@ header {
 }
 main {
   background-color: #087ef8;
-}
-.title {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
+  padding-bottom: 100px;
 }
 .sub-title {
   font-family: 'Roboto Slab', serif;
@@ -40,6 +49,10 @@ main {
 }
 .active {
     background-color: #03407f;
+  }
+  .cubanphoto {
+    margin: 25px;
+    border: 5px inset #03407f;
   }
 .description{
   font-family: 'Lato', sans-serif;
@@ -52,29 +65,32 @@ main {
     min-height: 7em;
 }
 
-.button-1 {
-    font-family: 'Roboto Slab', serrif;
-    font-size: 1.5em;
-    color: white;
-    font-weight: 600;
-    background-color: #0665c7;
-    border-color: #8f8b8b #383636 #383636 #8f8b8b;
-    border-width: 9px 15px 15px 9px;
-    border-style: solid;
-    margin-right: 20%;
-    top: 1em;
-    padding: 1em;
-    width: 9em;
-    text-align: center;
+.buy-button {
+  float: ;
+  font-family: 'Roboto Slab', serrif;
+  font-size: 1.5em;
+  color: #fef105;
+  font-weight: 600;
+  background-color: #0665c7;
+  border-color: #8f8b8b #383636 #383636 #8f8b8b;
+  border-width: 9px 15px 15px 9px;
+  border-style: solid;
+  border-radius: 25px;
+  margin: 1em;
+  margin-right: 3m;
+  top: 1em;
+  padding: 2em;
+  width: 12em;
+  text-align: center;
 }
 
-.button-1:hover {
-    color: #383636;
-    font-style: italic;
+.buy-button:hover {
+  color: #989003;
+  font-style: italic;
 }
 
-.button-1:active {
-    color: #fff;
+.buy-button:active {
+    color: #fef105;
     background-color: #03407f;
     border-color: #383636 #8f8b8b #8f8b8b #383636;
     border-width: 15px 9px 9px 15px;
@@ -83,15 +99,31 @@ main {
   font-family: 'Lato', sans-serif;
   margin-right: 20%;
   margin-left: 20%;
-  border-style: solid;
-  border-color: #03407f;
-  border-width: 3px;
+  border: 3px dashed #03407f ;
+  padding: 1.5em;
   color: black;
 }
 .bio {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: 'Lato', sans-serif;
-  text-indent: 1.5em;
   color: black;
+}
+.side-content {
+  float: right;
+    margin: 1em;
+    padding: 0;
+    width: 15%;
+    color: #fef105;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    font-size: 1.5em;
+}
+.side-button {
+  float: right;
+    margin: 1em;
+    padding: 0;
+    position: relative;
+    top: 200px;
 }
