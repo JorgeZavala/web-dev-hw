@@ -6,3 +6,9 @@ works with that for my headings and subheadings. I also want a san-serrif font f
  will work with that as well
 
  My color pallete consists of different blues and black.
+
+**UPDATE**
+I updated my website woth a few diffferent things. I put a proper navigation baron my page so it looks a lot nicer.
+I also learned more about positioning so I created a side quote and aligned it on the right side of my home page.
+I used this same technique to create a "buy now" button on my Sample page as well. Also, I adjusted the size of my containers
+so the content did not overflow out of it.
